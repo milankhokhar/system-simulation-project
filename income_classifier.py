@@ -82,5 +82,5 @@ input_data_encoded = np.array(input_data_encoded)
 
 # Run classifier on encoded datapoint and print output
 predicted_class = classifier.predict(input_data_encoded)
-print(label_encoder[-1].inverse_transform(predicted_class)[0])
+print("Predicted Value for Input Data Salary is:" + label_encoder[-1].inverse_transform(predicted_class)[0])
 
